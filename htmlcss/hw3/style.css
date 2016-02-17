@@ -1,0 +1,121 @@
+
+body{
+    background-color: #f9f9f9;
+    font-family: Myriad Pro, sans-serif;
+    margin: auto;
+    
+}
+
+
+.header{
+    background-color: white;
+    width: 1060px;
+    height: 900px;
+    margin-left: 150px;
+    padding-left: 47px;
+  
+
+}
+#logo{
+   padding-top: 51px;
+}
+.menu {
+ margin-top: 41px;
+
+}
+.menu li{
+     display: inline;
+     
+}
+.menu a{
+    float: left;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    background: #535252;
+    padding: 15px;
+    margin:0;
+    width: 200px;
+   
+}
+.menu a:hover{
+    background: #353535;
+    border: 0.5px solid #f8fbe0;
+   
+}
+.leftmenu{
+    margin-top: 140px;
+    width: 276px;
+    height: 0px;
+    list-style-type: none;
+    line-height: 42px;
+   
+}
+
+.leftmenu a{
+    text-decoration: none;
+    color: #2c2c2c;
+    
+}
+.leftmenu li{
+    border: 1px solid black;
+    height: 44px;
+    width: 250px;
+    padding-left: 25px;
+    font-size: 14px;
+    
+}
+.leftmenu li:hover{
+    background: #eeeeee;
+    
+    
+}
+.leftmenu a:hover{
+    margin-left: 5px;
+    font-size: 15px;
+    
+    
+}
+p{
+    font-size: 10pt;
+    margin-left: 340px;
+  	margin-top:34px;
+  	width: 577px;
+  	color: #2c2c2c;
+}
+.velo{
+  display: block;
+  margin-left: 340px;
+  width: 577px;
+  height: 400px;
+  border: 1px solid #c8c8c8;
+  }
+
+
+.footer{
+    margin-top: 60px;
+}
+.footer li{
+    display: inline;
+    
+}
+.footer a{
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    background: #e1e1e1;
+    padding: 11px;
+    margin:0px;
+    width: 180px;
+}
+footer a.copy{
+    margin-right: 30px;
+    width: 260px;
+    padding: 1px;
+    text-align: right;
+}
+
+.footer a:hover{
+    text-decoration:underline; 
+}
