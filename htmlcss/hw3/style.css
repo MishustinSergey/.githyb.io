@@ -51,7 +51,7 @@ header .head{
 }
 
 /* SIDEBAR*/
-sidebar .bar {
+div .bar {
     margin-left: 50px;
     margin-top: 40px;
     width: 240px;
@@ -59,14 +59,14 @@ sidebar .bar {
     
 }
 
-.bar li {
+div .bar li {
     border: 1px solid black;
     height: 38px;
 
 
 }
 
- sidebar a {
+ .bar a {
     display: block;
     margin-top: 10px;
     text-decoration: none;
@@ -76,11 +76,11 @@ sidebar .bar {
  
 }
 
-sidebar li:hover {
+.bar li:hover {
     background-color: #f9f9f9;
 }
 
-sidebar a:hover {
+.bar a:hover {
     margin-left: 35px;
 }
 
