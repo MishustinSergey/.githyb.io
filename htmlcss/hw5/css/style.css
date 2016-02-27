@@ -1,0 +1,260 @@
+@font-face{
+     font-family: Helvetica;
+      src: url(/font/HelveticeNeue.ttf);
+}
+body{
+    font-family: Helvetica , Arial , sans-serif;
+}
+header {
+    width: 1200px;
+    height: 36px;
+    margin: 0 auto;
+    background: url(/image/menu_fon.jpg)
+}
+ul.menu{
+    padding: 0;
+    width: 375px;
+    height: 35px;
+    margin-left: 460px;
+}
+ul.menu li{
+    list-style: none;
+    display: inline-block;
+    float: left;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+    
+    
+}
+img.flag {
+    width: 25px;
+    height: 28px;
+    position: relative;
+    top:-32px;
+    left: 10px;
+    clear: both;
+    border-left: 1px solid #56a2dc;
+    padding-left: 7px;
+}
+ul.menu li a{
+    color: #458fc8;
+    text-decoration: none;
+}
+ul.menu li:hover{
+    background: #4ba7d8;
+    color: white;
+}
+ul.menu a:hover{
+    color: white;
+}
+ul.clearfix:after{
+    content: '';
+    clear: right;
+    margin: 0;
+}
+ul.left_menu{
+    padding: 0;
+    float: right;
+    display: block;
+    width: 350px;
+    height: 45px;
+    position: absolute;
+}
+ul.left_menu li{
+    position: relative;
+    display: inline;
+    top: -56px;
+    left: 845px;
+    padding: 10px;
+}
+ul.left_menu a{
+    color: white;
+    text-decoration: none;
+}
+ul.left_menu li:hover{
+    background-color: #307dc6;
+    list-style: none;
+}
+ul.left_menu b:hover{
+    text-decoration: underline;
+}
+/*Li img{
+    position: absolute;
+    width: 25px;
+    height: 28px;
+    top: 3px;
+    margin-left: 35px;
+    
+}*/
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    background: url(/image/fon.jpg) no-repeat;
+    height: 1028px;
+    width: 1200px;
+    
+}
+.register {
+    position: absolute;
+    left:320px;
+    top: 207px;
+    width: 560px;
+    height: 614px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.head{
+    position: absolute;
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #afb8a3;
+}
+.head h2{
+    font-size: 42px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+    a.fb {
+     position: absolute;
+     display: block;
+     top: 100px;
+     left: 140px;
+     width: 275px;
+     height: 35px;
+     outline: none;
+     border-radius: 6px;
+     background: url(/image/facebook.jpg)
+     no-repeat;
+     border-top: 1px solid #7789b7;
+}
+   a.fb:hover {
+       border-bottom: 1px solid #689bcd;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
+    box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
+}
+.clearfix:after{
+    content: '';
+    clear: both;
+    display: block;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+}
+
+.fancy {
+  line-height: 0.5;
+  text-align: center;
+
+}
+.fancy span {
+  display: inline-block;
+  position: relative; 
+    top: 190px;
+  color: #999; 
+}
+.fancy span:before,
+.fancy span:after {
+  content: "";
+  position: absolute;
+  border-bottom: .5px solid #000;
+  border-top: 1px solid #666;
+  width: 121px;
+}
+.fancy span:before {
+  right: 100%;
+  margin-right: 5px;
+}
+.fancy span:after {
+  left: 100%;
+  margin-left: 5px;
+}
+.login form>input {
+     color: white;
+     top: 210px;
+     font-size: 14px;
+     left: 140px;
+     margin-top: 15px;
+     display: block;
+     position: relative;
+     border: none;
+     text-indent:10px;
+     border-bottom: 1px solid #484848;
+     width: 275px;
+     height: 35px;
+     background: #100f0e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #100f0e 0%, #0f0f0f 39%, #101010 68%, #111010 83%, #111111 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #100f0e 0%,#0f0f0f 39%,#101010 68%,#111010 83%,#111111 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #100f0e 0%,#0f0f0f 39%,#101010 68%,#111010 83%,#111111 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  
+}
+
+ input::-webkit-input-placeholder {
+    color:white;
+    opacity: 0.7;
+    /* Цвет подсказывающего текста */
+   }
+.login input:focus {
+    
+    background: #1b5288;
+    outline: none;
+    border-bottom: 1px solid #689bcd;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
+    box-shadow: 0px 0px 10px 2px rgba(0,166,255,1); 
+}
+.chb {
+    position: relative;
+    top: 190px;
+    left: 140px;
+    width: 270px;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    overflow: inherit;
+    font-size: 14px;
+    color: white;
+    clear: both;
+}
+  button#Create {
+      position: absolute;
+      top: 30px;
+      left:62.5px;
+      height: 35px;
+      width: 150px;
+      display:block;
+      color: white;
+      font-size: 14px;
+      text-decoration: none;
+      outline: none;
+      border: none;
+      border-radius: 2px;
+      background: #4ba7d8;
+      text-align: center;
+      line-height: 35px;
+      overflow: hidden;
+      clear: both;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#67c6e6+0,4ca9d9+19,3c8fce+45,3281c7+66,2e7ac4+84,3686ca+100 */
+       background: #67c6e6; /* Old browsers */
+       background: -moz-linear-gradient(top,  #67c6e6 0%, #4ca9d9 19%, #3c8fce 45%, #3281c7 66%, #2e7ac4 84%, #3686ca 100%); /* FF3.6-15 */
+       background: -webkit-linear-gradient(top,  #67c6e6 0%,#4ca9d9 19%,#3c8fce 45%,#3281c7 66%,#2e7ac4 84%,#3686ca 100%); /* Chrome10-25,Safari5.1-6 */
+       background: linear-gradient(to bottom,  #67c6e6 0%,#4ca9d9 19%,#3c8fce 45%,#3281c7 66%,#2e7ac4 84%,#3686ca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+} 
+button#Create:hover{
+      border-bottom: 1px solid #689bcd;
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
+    box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
+}
+.text_button{
+    font-size: 11px;
+    color: white;
+    width: 310px;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    height: 25px;
+    left: 125px;
+    top: 250px;
+}
