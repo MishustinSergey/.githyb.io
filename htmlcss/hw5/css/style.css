@@ -12,9 +12,9 @@ header {
     background: url(../image/menu_fon.jpg)
 }
 ul.menu{
-    width: 375px;
+    width: 400px;
     height: 35px;
-    margin-left: 460px;
+    margin-left: 400px;
 }
 ul.menu li{
     list-style: none;
