@@ -1,6 +1,6 @@
 @font-face{
      font-family: Helvetica;
-      src: url(/font/HelveticeNeue.ttf);
+      src: url(../font/HelveticeNeue.ttf);
 }
 body{
     font-family: Helvetica , Arial , sans-serif;
@@ -9,10 +9,9 @@ header {
     width: 1200px;
     height: 36px;
     margin: 0 auto;
-    background: url(/image/menu_fon.jpg)
+    background: url(../image/menu_fon.jpg)
 }
 ul.menu{
-    padding: 0;
     width: 375px;
     height: 35px;
     margin-left: 460px;
@@ -50,8 +49,7 @@ ul.menu a:hover{
 }
 ul.clearfix:after{
     content: '';
-    clear: right;
-    margin: 0;
+    clear: both;
 }
 ul.left_menu{
     padding: 0;
@@ -90,7 +88,7 @@ ul.left_menu b:hover{
 .wrapper {
     position: relative;
     margin: 0 auto;
-    background: url(/image/fon.jpg) no-repeat;
+    background: url(../image/fon.jpg) no-repeat;
     height: 1028px;
     width: 1200px;
     
@@ -124,7 +122,7 @@ ul.left_menu b:hover{
      height: 35px;
      outline: none;
      border-radius: 6px;
-     background: url(/image/facebook.jpg)
+     background: url(../image/facebook.jpg)
      no-repeat;
      border-top: 1px solid #7789b7;
 }
