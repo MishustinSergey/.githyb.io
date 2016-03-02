@@ -1,31 +1,49 @@
-@font-face{
-     font-family: Helvetica;
-      src: url(../font/HelveticeNeue.ttf);
+/*Подключаю шрифт*/
+@font-face
+{
+   font-family: Helvetica;
+    src: url('fonts/helveticaneue-thin-webfont.eot');
+    src: url('fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+         url('fonts/helveticaneue-thin-webfont.woff') format('woff'),
+         url('fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-body{
-    font-family: Helvetica , Arial , sans-serif;
+body {
+    font-family: Helvetica, Arial, sans-serif;
 }
+/*врапер, ширина, высота, позиция и фон*/
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    background: url(../image/fon.jpg) no-repeat;
+    height: 1028px;
+    width: 1200px;
+    
+}
+/*HEAD*/
 header {
     width: 1200px;
     height: 36px;
     margin: 0 auto;
     background: url(../image/menu_fon.jpg)
 }
-ul.menu{
+/*центральное меню*/
+ul.menu {
     width: 400px;
     height: 35px;
     margin-left: 400px;
 }
-ul.menu li{
+ul.menu li {
     list-style: none;
     display: inline-block;
     float: left;
     padding: 10px;
     position: relative;
-    overflow: hidden;
-    
-    
+    overflow: hidden;  
 }
+
 img.flag {
     width: 25px;
     height: 28px;
@@ -36,22 +54,27 @@ img.flag {
     border-left: 1px solid #56a2dc;
     padding-left: 7px;
 }
-ul.menu li a{
+
+ul.menu li a {
     color: #458fc8;
     text-decoration: none;
 }
+
 ul.menu li:hover{
     background: #4ba7d8;
     color: white;
 }
-ul.menu a:hover{
+
+ul.menu a:hover {
     color: white;
 }
-ul.clearfix:after{
+
+ul.clearfix:after {
     content: '';
     clear: both;
 }
-ul.left_menu{
+/*меню по левому краю*/
+ul.left_menu {
     padding: 0;
     float: right;
     display: block;
@@ -59,40 +82,29 @@ ul.left_menu{
     height: 45px;
     position: absolute;
 }
-ul.left_menu li{
+
+ul.left_menu li {
     position: relative;
     display: inline;
     top: -56px;
     left: 845px;
     padding: 10px;
 }
-ul.left_menu a{
+
+ul.left_menu a {
     color: white;
     text-decoration: none;
 }
-ul.left_menu li:hover{
+
+ul.left_menu li:hover {
     background-color: #307dc6;
     list-style: none;
 }
-ul.left_menu b:hover{
+
+ul.left_menu b:hover {
     text-decoration: underline;
 }
-/*Li img{
-    position: absolute;
-    width: 25px;
-    height: 28px;
-    top: 3px;
-    margin-left: 35px;
-    
-}*/
-.wrapper {
-    position: relative;
-    margin: 0 auto;
-    background: url(../image/fon.jpg) no-repeat;
-    height: 1028px;
-    width: 1200px;
-    
-}
+/*блок для регистрации*/
 .register {
     position: absolute;
     left:320px;
@@ -101,18 +113,21 @@ ul.left_menu b:hover{
     height: 614px;
     background: rgba(0, 0, 0, 0.5);
 }
-.head{
+/*шапка блока*/
+.head {
     position: absolute;
     width: 100%;
     height: 62px;
     border-bottom: 1px solid #afb8a3;
 }
-.head h2{
+/*Заголовок головы блока*/
+.head h2 {
     font-size: 42px;
     color: white;
     text-align: center;
     padding: 10px;
 }
+/*Кнопка для регистрации через facebook*/
     a.fb {
      position: absolute;
      display: block;
@@ -122,8 +137,7 @@ ul.left_menu b:hover{
      height: 35px;
      outline: none;
      border-radius: 6px;
-     background: url(../image/facebook.jpg)
-     no-repeat;
+     background: url(../image/facebook.jpg) no-repeat;
      border-top: 1px solid #7789b7;
 }
    a.fb:hover {
@@ -132,7 +146,7 @@ ul.left_menu b:hover{
     -moz-box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
     box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
 }
-.clearfix:after{
+.clearfix:after  {
     content: '';
     clear: both;
     display: block;
@@ -140,7 +154,7 @@ ul.left_menu b:hover{
     margin: 0;
     padding: 0;
 }
-
+/*OU*/
 .fancy {
   line-height: 0.5;
   text-align: center;
@@ -168,6 +182,7 @@ ul.left_menu b:hover{
   left: 100%;
   margin-left: 5px;
 }
+/*форма для регистрации*/
 .login form>input {
      color: white;
      top: 210px;
@@ -202,6 +217,7 @@ ul.left_menu b:hover{
     -moz-box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
     box-shadow: 0px 0px 10px 2px rgba(0,166,255,1); 
 }
+/*чекбокс с активным текстом*/
 .chb {
     position: relative;
     top: 190px;
@@ -215,6 +231,7 @@ ul.left_menu b:hover{
     color: white;
     clear: both;
 }
+/*кнопка для регистрации аккаунта*/
   button#Create {
       position: absolute;
       top: 30px;
@@ -239,13 +256,14 @@ ul.left_menu b:hover{
        background: -webkit-linear-gradient(top,  #67c6e6 0%,#4ca9d9 19%,#3c8fce 45%,#3281c7 66%,#2e7ac4 84%,#3686ca 100%); /* Chrome10-25,Safari5.1-6 */
        background: linear-gradient(to bottom,  #67c6e6 0%,#4ca9d9 19%,#3c8fce 45%,#3281c7 66%,#2e7ac4 84%,#3686ca 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 } 
-button#Create:hover{
+button#Create:hover {
       border-bottom: 1px solid #689bcd;
     -webkit-box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
     -moz-box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
     box-shadow: 0px 0px 10px 2px rgba(0,166,255,1);
 }
-.text_button{
+/*текст в футере блока*/
+.text_button {
     font-size: 11px;
     color: white;
     width: 310px;
