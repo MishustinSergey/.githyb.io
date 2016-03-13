@@ -55,7 +55,7 @@ p {
     display: block;
     left: 312px;
     top: 18px;
-    background-image: url(/image/register.png);
+    background-image: url(../image/register.png);
     border-radius: 5px;
 
     /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#206988+0,114165+59,0c3256+100 */
@@ -189,7 +189,7 @@ visibility: hidden;
     border: 1px solid #0d1642;
     /*добавляю цвет фона меню в виде градиента
     */
-    background: url(/image/menu.png)no-repeat;
+    background: url(../image/menu.png)no-repeat;
    -webkit-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
    -moz-box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
    box-shadow: 0px 3px 8px 0px rgba(0,0,0,0.75);
