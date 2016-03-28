@@ -1,0 +1,630 @@
+@font-face {
+	font-family: 'League Gothic';
+	src: url('../fonts/leaguegothic-regular-webfont.eot');
+	src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/leaguegothic-regular-webfont.woff2') format('woff2'),
+	url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
+	url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body {
+    
+}
+.wrapper {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+    width: 960px;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+/*ХЕДЕР*/
+.header {
+background: url(/image/fon_header.jpg) no-repeat;
+    width: 100%;
+    height: 340px;
+    border-bottom: 0.2px solid grey;
+}
+/*Логотип*/
+.logo {
+    padding-left: 10px;
+    font-family: 'League Gothic', Tahoma, sans-serif;
+    position: absolute;
+    left: 278px;
+    top: 28px;
+    font-size: 19px;
+    font-weight: 400;
+    display: block;
+    width: 75px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.1);
+}
+
+.logo span {
+    display: block;
+    position: absolute;
+    color: #322539;
+    left: 60px;
+    top: 0;
+
+ 
+}
+/*ОСНОВНОЕ МЕНЮ*/
+.menu {
+    margin-left: 405px;
+    margin-top: 27px;
+    display: inline-block;
+    list-style: none;
+    float: left;
+    overflow: hidden;
+}
+.menu li {
+    margin-left: 14px;
+    display: inline;
+    
+}
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'League Gothic', Tahoma, sans-serif;
+    font-size: 10px;
+    clear: both;
+    letter-spacing:0.4px;
+   
+    
+}
+.menu a:hover {
+   
+   border-bottom: 2px solid #edbfff;
+}
+.menu:affter {
+    content: '';
+    clear: both;
+}
+
+/*слайды*/
+.sliders {
+    position: absolute;
+    width: 100%;
+    height:160px;
+    top: 113px;
+    background-color: rgba(0, 0, 0, 0.2);
+    
+}
+.sliders img {
+    position: absolute;
+    top: -6px;
+    right: 319px;
+    width: 105px;
+    height: 165px;
+}
+.article_slider {
+    position: absolute;
+    display: block;
+    left: 288px;
+    top: 30px;
+    width: 23%;
+    height: 120px;
+    font-family: 'League Gothic', Tahoma, sans-serif; 
+    overflow:auto;
+}
+.article_slider h1 {
+    font-size: 24px;
+    color: #fefefe;
+}
+.article_slider h2 {
+    font-size: 13px;
+    color: #edbfff;
+}
+.article_slider p {
+    font-family: Arial , Tahoma, sans-serif; 
+    color: white;
+    font-size: 10px;
+}
+input[type='radio'] {
+    position: relative;
+    top: 192px;
+    left: 59%;
+    display: inline;
+    padding: 0;
+    margin: 0;
+    opacity: 0.3;
+    width: 8px;
+    height: 8px;
+    clear: both;
+}
+input[type='radio']:focus {
+    background-color: white;
+    opacity: 1;
+}
+/*Контент топ*/
+.content_top {
+    display: block;
+    height: 137px;
+    width: 100%;
+    background: rgb(116,80,131);
+    background: -moz-linear-gradient(top,  rgba(116,80,131,1) 0%, rgba(50,37,57,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(116,80,131,1) 0%,rgba(50,37,57,1) 100%);
+    background: linear-gradient(to bottom,  rgba(116,80,131,1) 0%,rgba(50,37,57,1) 100%);
+    filter:    progid:DXImageTransform.Microsoft.gradient(    startColorstr='#745083', endColorstr='#322539',GradientType=0 );
+
+}
+.colon {
+    position: relative;
+}
+.colon aside {
+    display: inline-block;
+    position: relative;
+    margin:8px;
+    left: 286px;
+    top: 24px;
+}
+.collon_one {
+    background: url(/image/key.png)0px 0px no-repeat;
+    background-size: 12px 12px;
+    width: 12%;
+    position: relative;
+    height: 100px;
+    overflow: hidden;
+    clear: both;
+}
+.collon_one:affter {
+    clear: both;
+    content: ''
+    
+}
+.collon_two 
+    background: url(/image/task.png)0px 0px no-repeat;
+    position: relative;
+    background-size: 12px 12px;
+    width: 12%;
+    height: 100px;
+    overflow: hidden;
+    clear: both;
+    
+}
+.collon_three {
+    display: block;
+    background: url(/image/music.png)0px 0px no-repeat;
+    position: inherit;
+    background-size: 12px 12px;
+    width: 12%;
+    height: 100px;
+    overflow: hidden;
+    
+}
+.content_top h1 {
+    font-family: 'League Gothic', Tahoma, sans-serif;
+    font-size: 13px;
+    padding-left: 23px;
+    color: #ffffff;
+}
+.content_top p {
+    font-family: 'Myriad Pro', sans-serif;
+    color: #909192;
+    font-size: 8px;
+    padding-left: 23px;
+    padding-top: 3px;
+    line-height: 7px;
+}
+.content_top  a {
+    text-decoration: none;
+    color: white;
+    font-family: 'League Gothic', Tahoma, sans-serif;
+    font-size: 8px;
+    margin-top: 6px;
+    margin-right: 4px;
+    float: right;
+ }
+.content_top  a:hover {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
+-moz-box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
+box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
+}
+/*Контент центер*/
+.content {
+    position: relative;
+    width: 100%;
+    height: 194px;
+    background-color:#f9f9f9;
+}
+
+.voice_face {
+    position: absolute;
+    display: block;
+    left: 288px;
+    top: 37px;
+    height: 113px;
+    width: 180px;
+    overflow: auto;
+    background: url(/image/face_voice.png) no-repeat;
+    background-size: 190px 146px;
+}
+.voice_face h1 
+    font-family: 'League Gothic', Tahoma, sans-serif; 
+    padding-left: 28px;
+    padding-top: 15px;
+    font-size: 12px;
+    color: #454545;
+}
+.voice_face b {
+    color: #edbfff;
+}
+.voice_face p {
+    display: block;
+    font-size: 8px;
+    padding-top: 4px;
+    padding-left: 25px;
+    padding-right: 16px;
+}
+/*Контент боттом*/
+.content_bottom {
+    background: #ececec;
+}
+/*слайдер контент*/
+.slider_content li {
+    padding: 0;
+    display: inline-block;
+    position: relative;
+    top: 155px;
+    left: 365px;
+    background-color: white;
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    overflow: auto;
+}
+.slider_content li:hover {
+    background-color: black;
+    border: 1px solid gray;
+    
+}
+
+/*Левый асайд*/
+
+.content .left_acide {
+    display: block;
+    width: 180px;
+    height: 120px;
+    position: relative;
+    right: 287px;
+    top: 34px;
+    float: right;
+    overflow: hidden;
+}
+.left_acide h1 {
+    font-size: 12px; 
+    font-family: 'League Gothic', Tahoma, sans-serif;
+}
+.left_acide li {
+    height: 27px;
+    background: url(/image/left_bg.png) no-repeat;
+    background-position: 0px 5px;
+}
+.left_acide a {
+    line-height: 12px;
+    padding-left: 25px;
+    text-decoration: none;
+    font-size: 8px;
+    color: black;
+    font-weight: 600;
+}
+.left_acide p {
+    font-size: 6px;
+    padding-left: 25px;
+}
+.left_acide h2 {
+    font-family: 'League Gothic', Tahoma, sans-serif;
+    float: right;
+    color: #454545;
+    font-size: 8px;
+    margin: 0;
+    padding: 0;
+}
+.left_acide h2:hover {
+    color: green;
+    border-bottom: 1px solid yellow;
+}
+/*СИТБАР*/
+.sitbar {
+    width: 100%;
+    height: 50px;
+    background-color: #f9f9f9;
+    border-top: 1px dotted #efefef;
+}
+/*меню с помощью спрайта*/
+.menu_sprite {
+    width: 340px;
+    position: relative;
+    top: 9px;
+    left: 325px;
+    overflow: hidden;
+}
+
+.menu_sprite li {
+    float: left;
+    list-style: none;
+    
+}
+.menu_sprite a {
+    display: block;
+    width: 53px;
+    height: 26px;
+    background: url(/image/menu_sprite.png) 0 0 no-repeat;
+    
+}
+.menu_sprite .logo_sprite2 {
+    background-position: -53px 0;
+}
+.menu_sprite .logo_sprite3 {
+    background-position: -106px 0;
+}
+.menu_sprite .logo_sprite4 {
+    background-position: -159px 0;
+}
+.menu_sprite .logo_sprite5 {
+    background-position: -212px 0;
+}
+.menu_sprite .logo_sprite6 {
+    background-position: -265px 0;
+}
+.menu_sprite a:hover {
+    background-position: 0 -27px;
+}
+.menu_sprite .logo_sprite2:hover {
+    background-position: -53px -27px;
+}
+.menu_sprite .logo_sprite3:hover {
+    background-position: -106px -27px;
+}
+.menu_sprite .logo_sprite4:hover {
+    background-position: -159px -27px;
+}
+.menu_sprite .logo_sprite5:hover {
+    background-position: -212px -27px;
+}
+.menu_sprite .logo_sprite6:hover {
+    background-position: -265px -27px;
+}
+/*контент боттом*/
+.content_bottom {
+   width: 100%;
+    height: 157px;
+    background-color: #ececec;
+}
+.acide_bot acide {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    left: 280px;
+    top: 34px;
+    height: 90px;
+    width: 120px;
+    overflow: auto;
+}
+.acide_bot b {
+    color: #b9b9b9;
+}
+.acide_bot h4 {
+    color: #b9b9b9;
+    font-size: 8px;
+    font-style: italic;
+}
+.acide_bot a {
+    font-family: 'League Gothic', Tahoma, sans-serif;
+    text-decoration: none;
+    color: #454545;
+    font-size: 19px;
+    font-weight: 500;
+}
+.acide_bot a h2 {
+    padding-top: 2px;
+    font-size: 13px;
+}
+.acide_bot acide p {
+    display: block;
+    padding-top: 5px;
+    margin: 0 auto;
+    font-size: 8px;
+    color: #9c9b9b;
+}
+/*футер*/
+.footer {
+    position: relative;
+    width: 100%;
+    height: 46px;
+    background: url(/image/fon_footer1.jpg) no-repeat;
+    
+}
+.menu_footer {
+    margin-left: 279px;
+    margin-top: 11px;
+    display: block;
+    list-style: none;
+    float: left;
+    overflow: hidden;
+}
+.menu_footer li {
+    margin-left: 12px;
+    display: inline;
+    
+}
+.menu_footer a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-family: 'League Gothic', Tahoma, sans-serif;
+    font-size: 8px;
+    clear: both;
+    letter-spacing:0.4px;
+    
+}
+.menu_footer a:hover {
+    border-bottom: 1px solid #edbfff;
+}
+.menu_footer:affter {
+    content: '';
+    clear: both;
+}
+.pingbull a {
+    font-family:Tahoma, sans-serif;
+    display: block;
+    position: absolute;
+    width: 60px;
+    right: 284px;
+    top: 19px;
+    height: 10px;
+    font-size: 5px;
+    color: #9c9b9b;
+    text-decoration: none;
+}
+.pingbull b {
+    font-family: Tahoma, sans-serif;
+    color: white;
+}
+
+/*вид сайта при разрешении меньше чем 768пикселей*/
+@media (max-width: 768px){
+    .menu {
+        margin-left: 275px;
+        margin-top: 50px;
+    }
+    .collon_one,
+    .collon_two,
+    .collon_three {
+     width: 8%;
+     height: 100px;
+     
+    }
+    .content_top h1 {
+        font-size: 8px;
+    }
+    .content_top p {
+        font-size: 5px;
+    }
+    .voice_face {
+        width: 140px;
+    }
+    .content .left_acide {
+        width: 130px;
+        right: 350px;
+    }
+    .content .left_acide h1 {
+        font-size: 10px;
+    }
+    .left_acide a{
+        font-size: 6px;
+    }
+    .left_acide h2 {
+        font-size: 7px;
+    }
+    .acide_bot h4 {
+        font-size: 6px;
+    }
+    .acide_bot a {
+        font-size: 13px;
+    }
+    .acide_bot a h2 {
+        font-size: 9px;
+    }
+    .acide_bot acide p {
+        font-size:6px ;
+    }
+}
+ /*Максимальное разрешение 480 пикселей*/
+@media (max-width: 480px){
+    .wrapper{
+    }
+   .logo{
+        left: 320px;
+    }
+    .menu {
+        position: relative;
+        background: rgba(0, 0,0,0.4);
+        margin-left: 310px;
+        width: 110px;
+         z-index: 4;
+    }
+   .header .menu li {
+        display: block;
+        text-align: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+    .header .menu li:hover {
+        background: black;
+        border-bottom: 2px solid ##edbfff;
+    }
+    .header .sliders p {
+        font-size: 0px;
+    }
+    .header .sliders h1 {
+        font-size: 20px;
+    }
+    .header .sliders h2 {
+        font-size: 10px;
+    }
+   .header .sliders {
+        z-index: 2;
+    }
+    .article_slider {
+        left: 310px;
+        z-index: 1;
+        width: 130px;
+        height: 50px;
+    }
+    .sliders img {
+        width: 80px;
+        height: 130px;
+        right: 500px;
+        
+    }
+  .content_top {
+      display: block;
+      height: 190px;
+    }
+    .colon aside {
+       display: block;
+        width: 140px;
+        height: 56px;
+        margin: 0;
+        top: 5px;;
+    }
+    .content_top a h1 {
+        padding: 0;
+        margin-right: 66px;
+        display: block;
+    }
+    .content .left_acide {
+        right: 538px;
+        top: 165px;
+    }
+    .content {
+        height: 320px;
+    }
+    .menu_sprite {
+        width: 160px;
+        left: 290px;
+    }
+    .sitbar {
+        height: 80px;
+    }
+    .acide_bot acide {
+        display: block;
+        width: 180px;
+    }
+    .content_bottom {
+        height: 340px;
+    }
+    .menu_footer {
+        margin-left: 250px;
+    }
+}
