@@ -84,10 +84,6 @@ background: url(/image/fon_header.jpg) no-repeat;
    
    border-bottom: 2px solid #edbfff;
 }
-.menu:affter {
-    content: '';
-    clear: both;
-}
 
 /*слайды*/
 .sliders {
@@ -128,21 +124,24 @@ background: url(/image/fon_header.jpg) no-repeat;
     color: white;
     font-size: 10px;
 }
-input[type='radio'] {
-    position: relative;
-    top: 192px;
-    left: 59%;
-    display: inline;
+/*слайдер картинок в хедере*/
+.slider_image li {
     padding: 0;
-    margin: 0;
-    opacity: 0.3;
-    width: 8px;
-    height: 8px;
-    clear: both;
-}
-input[type='radio']:focus {
+    display: inline-block;
+    position: relative;
+    top: 165px;
+    left: 465px;
     background-color: white;
-    opacity: 1;
+    width: 6px;
+    height: 6px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    overflow: auto;
+}
+.slider_image li:hover {
+    background-color: black;
+    border: 1px solid gray;
+    
 }
 /*Контент топ*/
 .content_top {
@@ -153,8 +152,7 @@ input[type='radio']:focus {
     background: -moz-linear-gradient(top,  rgba(116,80,131,1) 0%, rgba(50,37,57,1) 100%);
     background: -webkit-linear-gradient(top,  rgba(116,80,131,1) 0%,rgba(50,37,57,1) 100%);
     background: linear-gradient(to bottom,  rgba(116,80,131,1) 0%,rgba(50,37,57,1) 100%);
-    filter:    progid:DXImageTransform.Microsoft.gradient(    startColorstr='#745083', endColorstr='#322539',GradientType=0 );
-
+  
 }
 .colon {
     position: relative;
@@ -175,12 +173,8 @@ input[type='radio']:focus {
     overflow: hidden;
     clear: both;
 }
-.collon_one:affter {
-    clear: both;
-    content: ''
-    
-}
-.collon_two 
+
+.collon_two {
     background: url(/image/task.png)0px 0px no-repeat;
     position: relative;
     background-size: 12px 12px;
@@ -235,7 +229,9 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
     height: 194px;
     background-color:#f9f9f9;
 }
-
+.content_acide{
+    position: relative;
+}
 .voice_face {
     position: absolute;
     display: block;
@@ -247,7 +243,7 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
     background: url(/image/face_voice.png) no-repeat;
     background-size: 190px 146px;
 }
-.voice_face h1 
+.voice_face h1 {
     font-family: 'League Gothic', Tahoma, sans-serif; 
     padding-left: 28px;
     padding-top: 15px;
@@ -470,10 +466,7 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
 .menu_footer a:hover {
     border-bottom: 1px solid #edbfff;
 }
-.menu_footer:affter {
-    content: '';
-    clear: both;
-}
+
 .pingbull a {
     font-family:Tahoma, sans-serif;
     display: block;
@@ -561,7 +554,7 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
     }
     .header .menu li:hover {
         background: black;
-        border-bottom: 2px solid ##edbfff;
+        border-bottom: 2px solid #edbfff;
     }
     .header .sliders p {
         font-size: 0px;
