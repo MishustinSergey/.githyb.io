@@ -24,7 +24,7 @@ body {
 
 /*ХЕДЕР*/
 .header {
-background: url(/image/fon_header.jpg) no-repeat;
+background: url(../image/fon_header.jpg) no-repeat;
     width: 100%;
     height: 340px;
     border-bottom: 0.2px solid grey;
@@ -165,7 +165,7 @@ background: url(/image/fon_header.jpg) no-repeat;
     top: 24px;
 }
 .collon_one {
-    background: url(/image/key.png)0px 0px no-repeat;
+    background: url(../image/key.png)0px 0px no-repeat;
     background-size: 12px 12px;
     width: 12%;
     position: relative;
@@ -175,7 +175,7 @@ background: url(/image/fon_header.jpg) no-repeat;
 }
 
 .collon_two {
-    background: url(/image/task.png)0px 0px no-repeat;
+    background: url(../image/task.png)0px 0px no-repeat;
     position: relative;
     background-size: 12px 12px;
     width: 12%;
@@ -186,7 +186,7 @@ background: url(/image/fon_header.jpg) no-repeat;
 }
 .collon_three {
     display: block;
-    background: url(/image/music.png)0px 0px no-repeat;
+    background: url(../image/music.png)0px 0px no-repeat;
     position: inherit;
     background-size: 12px 12px;
     width: 12%;
@@ -302,7 +302,7 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
 }
 .left_acide li {
     height: 27px;
-    background: url(/image/left_bg.png) no-repeat;
+    background: url(../image/left_bg.png) no-repeat;
     background-position: 0px 5px;
 }
 .left_acide a {
@@ -354,7 +354,7 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
     display: block;
     width: 53px;
     height: 26px;
-    background: url(/image/menu_sprite.png) 0 0 no-repeat;
+    background: url(../image/menu_sprite.png) 0 0 no-repeat;
     
 }
 .menu_sprite .logo_sprite2 {
@@ -396,7 +396,7 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
     height: 157px;
     background-color: #ececec;
 }
-.acide_bot acide {
+.acide_bot section {
     display: inline-block;
     position: relative;
     margin-left: 10px;
@@ -425,7 +425,7 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
     padding-top: 2px;
     font-size: 13px;
 }
-.acide_bot acide p {
+.acide_bot section p {
     display: block;
     padding-top: 5px;
     margin: 0 auto;
@@ -437,7 +437,7 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
     position: relative;
     width: 100%;
     height: 46px;
-    background: url(/image/fon_footer1.jpg) no-repeat;
+    background: url(../image/fon_footer1.jpg) no-repeat;
     
 }
 .menu_footer {
@@ -610,7 +610,7 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
     .sitbar {
         height: 80px;
     }
-    .acide_bot acide {
+    .acide_bot section {
         display: block;
         width: 180px;
     }
