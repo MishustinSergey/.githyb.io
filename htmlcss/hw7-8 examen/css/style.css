@@ -486,14 +486,20 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
 
 /*вид сайта при разрешении меньше чем 768пикселей*/
 @media (max-width: 768px){
+    .wrapper {
+        width: 768px;
+    }
     .menu {
         margin-left: 275px;
         margin-top: 50px;
     }
+    .sliders img{
+        left: 470px;
+    }
     .collon_one,
     .collon_two,
     .collon_three {
-     width: 8%;
+     width: 10%;
      height: 100px;
      
     }
@@ -508,7 +514,7 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
     }
     .content .left_acide {
         width: 130px;
-        right: 350px;
+        right: 170px;
     }
     .content .left_acide h1 {
         font-size: 10px;
@@ -535,14 +541,15 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
  /*Максимальное разрешение 480 пикселей*/
 @media (max-width: 480px){
     .wrapper{
+        width: 480px;
     }
    .logo{
-        left: 320px;
+        left: 220px;
     }
     .menu {
         position: relative;
         background: rgba(0, 0,0,0.4);
-        margin-left: 310px;
+        margin-left: 210px;
         width: 110px;
          z-index: 4;
     }
@@ -569,22 +576,27 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
         z-index: 2;
     }
     .article_slider {
-        left: 310px;
+        left: 210px;
         z-index: 1;
         width: 130px;
         height: 50px;
     }
     .sliders img {
-        width: 80px;
-        height: 130px;
-        right: 500px;
+        width: 60px;
+        height: 100px;
+        left: 230px;
+        top: 60px;
         
+    }
+    .slider_image li{
+        left: 230px;
     }
   .content_top {
       display: block;
       height: 190px;
     }
     .colon aside {
+        left: 200px;
        display: block;
         width: 140px;
         height: 56px;
@@ -596,8 +608,14 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
         margin-right: 66px;
         display: block;
     }
+    .content .voice_face{
+        left: 190px;
+    }
+    .slider_content li{
+        left: 220px;
+    }
     .content .left_acide {
-        right: 538px;
+        right: 150px;
         top: 165px;
     }
     .content {
@@ -605,7 +623,7 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
     }
     .menu_sprite {
         width: 160px;
-        left: 290px;
+        left: 200px;
     }
     .sitbar {
         height: 80px;
@@ -613,11 +631,12 @@ box-shadow: 0px 0px 5px 0px rgba(245,245,184,1);
     .acide_bot section {
         display: block;
         width: 180px;
+        left: 180px;
     }
     .content_bottom {
         height: 340px;
     }
     .menu_footer {
-        margin-left: 250px;
+        margin-left: 150px;
     }
 }
